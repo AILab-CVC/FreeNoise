@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 ## 😉 Citation
 ```bib
-@article{qiu2023freenoise,
+@misc{qiu2023freenoise,
       title={FreeNoise: Tuning-Free Longer Video Diffusion Via Noise Rescheduling}, 
       author={Haonan Qiu and Menghan Xia and Yong Zhang and Yingqing He and Xintao Wang and Ying Shan and Ziwei Liu},
       year={2023},
