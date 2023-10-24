@@ -49,20 +49,6 @@ def batch_ddim_sampling(model, cond, noise_shape, n_samples=1, ddim_steps=50, dd
             uc = uc_emb
     else:
         uc = None
-
-    conditioning = cond['c_crossattn'][0]
-    len1 = 8
-    len2 = 32 - len1 * 2
-    cond_diff = (conditioning[[1]] - conditioning[[0]]) / (len2 - 1)
-    cond_list = []
-    for i in range(len2):
-        cond_list.append((conditioning[[0]] + cond_diff * i).unsqueeze(0))
-
-    cond1 = torch.cat([conditioning[[0]].unsqueeze(0).repeat(1, len1, 1, 1), torch.cat(cond_list, 1), conditioning[[1]].unsqueeze(0).repeat(1, len1, 1, 1)], 1)
-    cond2 = torch.cat([conditioning[[1]].unsqueeze(0).repeat(1, len1, 1, 1), torch.cat(cond_list[::-1], 1), conditioning[[0]].unsqueeze(0).repeat(1, len1, 1, 1)], 1)
-    
-    cond_all = torch.cat([cond1, cond2], 0)
-    cond['c_crossattn'] = [cond_all]
  
     x_T = None
     batch_variants = []
@@ -152,7 +138,7 @@ def batch_ddim_sampling_freenoise(model, cond, noise_shape, n_samples=1, ddim_st
 
 def batch_ddim_sampling_freenoise_mp(model, cond, noise_shape, n_samples=1, ddim_steps=50, ddim_eta=1.0,\
                         cfg_scale=1.0, temporal_cfg_scale=None, args=None, x_T_total=None, **kwargs):
-    ddim_sampler = DDIMSampler(model)
+    ddim_sampler = DDIMSampler_mp(model)
     uncond_type = model.uncond_type
     batch_size = noise_shape[0]
 
@@ -183,17 +169,6 @@ def batch_ddim_sampling_freenoise_mp(model, cond, noise_shape, n_samples=1, ddim
 
     views = get_views(args.frames, args.window_size, args.window_stride)
 
-    # conditioning = cond['c_crossattn'][0]
-    # len2 = args.frames
-    # cond_diff1 = (conditioning[[1]] - conditioning[[0]]) / (len2 - 1)
-    # cond_list1 = []
-    # for i in range(len2):
-    #     cond_list1.append((conditioning[[0]] + cond_diff1 * i).unsqueeze(0))
-
-    # cond1 = torch.cat([conditioning[[1]].unsqueeze(0).repeat(1, args.frames, 1, 1)], 1)
-
-    # cond_all = cond1
-
     conditioning = cond['c_crossattn'][0]
     len1 = int(args.frames * 3 // 8)
     len2 = args.frames - len1 * 2
@@ -205,8 +180,7 @@ def batch_ddim_sampling_freenoise_mp(model, cond, noise_shape, n_samples=1, ddim
     cond1 = torch.cat([conditioning[[0]].unsqueeze(0).repeat(1, len1, 1, 1), torch.cat(cond_list1, 1), conditioning[[1]].unsqueeze(0).repeat(1, len1, 1, 1)], 1)
     cond2 = torch.cat([conditioning[[1]].unsqueeze(0).repeat(1, args.frames, 1, 1)], 1)
     
-    cond_all = cond1
-    # cond_all = torch.cat([cond1, cond2], 0)
+    cond_all = torch.cat([cond1, cond2], 0)
 
     cond['c_crossattn'] = [cond_all]
 

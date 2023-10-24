@@ -1,6 +1,6 @@
 ## ___***FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling***___
 
-<!-- ### 🔥🔥🔥 The LongerCrafter for longer high-quality video generation are now released! -->
+### 🔥🔥🔥 The LongerCrafter for longer high-quality video generation are now released!
 
 <div align="center">
 <p style="font-weight: bold">
