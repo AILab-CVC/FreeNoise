@@ -20,4 +20,3 @@ python3 scripts/evaluation/inference.py \
 --prompt_file $prompt_file \
 --fps 8 \
 --frames 16 
-
