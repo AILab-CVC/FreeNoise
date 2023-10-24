@@ -93,11 +93,11 @@ pip install -r requirements.txt
 
 
 ## 🤗 Crafter Family
-🔥 [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
+[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
 
-🔥 [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter): Tuning-free method for high-resolution image/video generation.
+[ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter): Tuning-free method for high-resolution image/video generation.
 
-🔥 [TaleCrafter](https://github.com/AILab-CVC/TaleCrafter): An interactive story visualization tool that supports multiple characters.  
+[TaleCrafter](https://github.com/AILab-CVC/TaleCrafter): An interactive story visualization tool that supports multiple characters.  
 
 
 ## 😉 Citation
