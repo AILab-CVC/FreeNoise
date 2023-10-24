@@ -36,15 +36,15 @@ Resolution: 1024 x 576; Frames: 64.</p>
 
 🤗🤗🤗 LongerCrafter (FreeNoise) is a tuning-free and time-efficient paradigm for longer video generation based on pretrained video diffusion models.
 
-### 1. Generic Text-to-video Generation
+### 1. Longer Single-Prompt Text-to-video Generation
 
 <img src=assets/t2v/sp512.gif>
-<p>Longer Single-Prompt Results. Resolution: 256 x 256; Frames: 512.</p>
+<p>Longer single-prompt results. Resolution: 256 x 256; Frames: 512.</p>
 
-### 2. Generic Image-to-video Generation
+### 2. Longer Multi-Prompt Text-to-video Generation
 
 <img src=assets/t2v/mp256.gif>
-<p>Longer Multi-Prompt Results. Resolution: 256 x 256; Frames: 256.</p>
+<p>Longer multi-prompt results. Resolution: 256 x 256; Frames: 256.</p>
 
 
 ## 📝 Changelog
@@ -54,7 +54,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 
 ## ⏳ Models
 
-|Models|Resolution|Checkpoint|Description
+|Model|Resolution|Checkpoint|Description
 |:---------|:---------|:--------|:--------|
 |VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1/blob/main/model.ckpt)|Support 128 frames on NVIDIA A100 (40GB)
 |VideoCrafter (Text2Video)|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)|Support 64 frames on NVIDIA A100 (40GB)
