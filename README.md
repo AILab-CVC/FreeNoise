@@ -38,14 +38,17 @@ Resolution: 1024 x 576; Frames: 64.</p>
 
 ### 1. Longer Single-Prompt Text-to-video Generation
 
+<div align="center">
 <img src=assets/t2v/sp512.gif>
 <p>Longer single-prompt results. Resolution: 256 x 256; Frames: 512.</p>
+</div>
 
 ### 2. Longer Multi-Prompt Text-to-video Generation
 
+<div align="center">
 <img src=assets/t2v/mp256.gif>
 <p>Longer multi-prompt results. Resolution: 256 x 256; Frames: 256.</p>
-
+</div>
 
 ## 📝 Changelog
 - __[2023.10.24]__: 🔥🔥 Release the LongerCrafter (FreeNoise), longer Video Generation!
@@ -88,6 +91,15 @@ pip install -r requirements.txt
   sh scripts/run_text2video_freenoise_mp_512.sh
 ```
 
+
+## 🤗 Crafter Family
+🔥 [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
+
+🔥 [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter): Tuning-free method for high-resolution image/video generation.
+
+🔥 [TaleCrafter](https://github.com/AILab-CVC/TaleCrafter): An interactive story visualization tool that supports multiple characters.  
+
+
 ## 😉 Citation
 ```bib
 @misc{qiu2023freenoise,
@@ -99,12 +111,6 @@ pip install -r requirements.txt
       primaryClass={cs.CV}
 }
 ```
-
-
-## 🤗 Crafter Family
-[VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
-
-[ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter): Tuning-free method for high-resolution image/video generation.
 
 
 ## 📢 Disclaimer
