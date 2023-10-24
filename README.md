@@ -1,16 +1,17 @@
 ## ___***FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling***___
 
-### 🔥🔥🔥 The LongerCrafter for longer high-quality video generation are now released!
+<!-- ### 🔥🔥🔥 The LongerCrafter for longer high-quality video generation are now released! -->
 
 <div align="center">
-
+<p style="font-weight: bold">
 ✅ totally <span style="color: red; font-weight: bold">no</span> tuning &nbsp;&nbsp;&nbsp;&nbsp;
 ✅ less than <span style="color: red; font-weight: bold">20%</span> extra time &nbsp;&nbsp;&nbsp;&nbsp;
 ✅ support <span style="color: red; font-weight: bold">512</span> frames &nbsp;&nbsp;&nbsp;&nbsp;
-<br><br>
+</p>
  <a href='https://arxiv.org/abs/2310.15169'><img src='https://img.shields.io/badge/arXiv-2310.15169-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href='http://haonanqiu.com/projects/FreeNoise.html'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- 
+
+
 _**[Haonan Qiu](http://haonanqiu.com/), [Menghan Xia*](https://menghanxia.github.io), [Yong Zhang](https://yzhang2016.github.io), [Yingqing He](https://github.com/YingqingHe), 
 <br>
 [Xintao Wang](https://xinntao.github.io), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), and [Ziwei Liu*](https://liuziwei7.github.io/)**_
@@ -37,14 +38,12 @@ Resolution: 1024 x 576; Frames: 64.</p>
 ### 1. Generic Text-to-video Generation
 
 <img src=assets/t2v/sp512.gif>
-<br>
-Longer Single-Prompt Results. Resolution: 256 x 256; Frames: 512.
+<p>Longer Single-Prompt Results. Resolution: 256 x 256; Frames: 512.</p>
 
 ### 2. Generic Image-to-video Generation
 
 <img src=assets/t2v/mp256.gif>
-<br>
-Longer Multi-Prompt Results. Resolution: 256 x 256; Frames: 256.
+<p>Longer Multi-Prompt Results. Resolution: 256 x 256; Frames: 256.</p>
 
 
 ## 📝 Changelog
@@ -110,3 +109,4 @@ pip install -r requirements.txt
 ## 📢 Disclaimer
 We develop this repository for RESEARCH purposes, so it can only be used for personal/research/non-commercial purposes.
 ****
+
