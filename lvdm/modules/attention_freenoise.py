@@ -394,7 +394,7 @@ class TemporalTransformer(nn.Module):
             assert(temporal_length is not None)
             attention_cls = partial(CrossAttention, relative_position=True, temporal_length=temporal_length)
         else:
-            attention_cls = None
+            attention_cls = partial(CrossAttention, temporal_length=temporal_length)
         if self.causal_attention:
             assert(temporal_length is not None)
             self.mask = torch.tril(torch.ones([1, temporal_length, temporal_length]))
