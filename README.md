@@ -19,7 +19,7 @@ _**[Haonan Qiu](http://haonanqiu.com/), [Menghan Xia*](https://menghanxia.github
 <br><br>
 (* corresponding author)
 
-From Tencent AI Lab and [MMLab@NTU](https://www.mmlab-ntu.com/index.html) affiliated with S-Lab, Nanyang Technological University.
+From Tencent AI Lab and Nanyang Technological University.
 
 <img src=assets/t2v/hd01.gif>
 <p>Input: "A chihuahua in astronaut suit floating in space, cinematic lighting, glow effect"; 
