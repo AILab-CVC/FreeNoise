@@ -24,11 +24,11 @@ From Tencent AI Lab and [MMLab@NTU](https://www.mmlab-ntu.com/index.html) affili
 <img src=assets/t2v/hd01.gif>
 <p>Input: "A chihuahua in astronaut suit floating in space, cinematic lighting, glow effect"; 
 <br>
-Resolution: 1024 x 576; Frames: 64. (Compressed)</p>
+Resolution: 1024 x 576; Frames: 64.</p>
 <img src=assets/t2v/hd02.gif>
 <p>Input: "Campfire at night in a snowy forest with starry sky in the background"; 
 <br>
-Resolution: 1024 x 576; Frames: 64. (Compressed)</p>
+Resolution: 1024 x 576; Frames: 64.</p>
 </div>
  
 ## 🔆 Introduction
@@ -40,14 +40,14 @@ Resolution: 1024 x 576; Frames: 64. (Compressed)</p>
 
 <div align="center">
 <img src=assets/t2v/sp512.gif>
-<p>Longer single-prompt results. Resolution: 256 x 256; Frames: 512.</p>
+<p>Longer single-prompt results. Resolution: 256 x 256; Frames: 512. (Compressed)</p>
 </div>
 
 ### 2. Longer Multi-Prompt Text-to-video Generation
 
 <div align="center">
 <img src=assets/t2v/mp256.gif>
-<p>Longer multi-prompt results. Resolution: 256 x 256; Frames: 256.</p>
+<p>Longer multi-prompt results. Resolution: 256 x 256; Frames: 256. (Compressed)</p>
 </div>
 
 ## 📝 Changelog

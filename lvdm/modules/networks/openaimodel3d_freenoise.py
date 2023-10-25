@@ -499,7 +499,7 @@ class UNetModel(nn.Module):
                         SpatialTransformer(ch, num_heads, dim_head, 
                             depth=transformer_depth, context_dim=context_dim, use_linear=use_linear,
                             use_checkpoint=use_checkpoint, disable_self_attn=False,
-                            img_cross_attention=self.use_image_attention, injection=True
+                            img_cross_attention=self.use_image_attention, injection=False
                         )
                     )
                     if self.temporal_attention:
