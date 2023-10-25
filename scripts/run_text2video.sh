@@ -18,5 +18,5 @@ python3 scripts/evaluation/inference.py \
 --ddim_steps 50 \
 --ddim_eta 0.0 \
 --prompt_file $prompt_file \
---fps 28 \
+--fps 8 \
 --frames 16 

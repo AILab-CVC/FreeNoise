@@ -24,11 +24,11 @@ From Tencent AI Lab and [MMLab@NTU](https://www.mmlab-ntu.com/index.html) affili
 <img src=assets/t2v/hd01.gif>
 <p>Input: "A chihuahua in astronaut suit floating in space, cinematic lighting, glow effect"; 
 <br>
-Resolution: 1024 x 576; Frames: 64.</p>
+Resolution: 1024 x 576; Frames: 64. (Compressed)</p>
 <img src=assets/t2v/hd02.gif>
 <p>Input: "Campfire at night in a snowy forest with starry sky in the background"; 
 <br>
-Resolution: 1024 x 576; Frames: 64.</p>
+Resolution: 1024 x 576; Frames: 64. (Compressed)</p>
 </div>
  
 ## 🔆 Introduction
