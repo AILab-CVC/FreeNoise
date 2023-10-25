@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ## 💫 Inference 
 ### 1. Longer Text-to-Video
 
-1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1.0/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_512_v1/model.ckpt`.
+1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_512_v1/model.ckpt`.
 2) Input the following commands in terminal.
 ```bash
   sh scripts/run_text2video_freenoise_512.sh
