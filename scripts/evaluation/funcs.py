@@ -170,7 +170,7 @@ def batch_ddim_sampling_freenoise_mp(model, cond, noise_shape, n_samples=1, ddim
     views = get_views(args.frames, args.window_size, args.window_stride)
 
     conditioning = cond['c_crossattn'][0]
-    len1 = int(args.frames * 3 // 8)
+    len1 = int(args.frames * 2 // 8)
     len2 = args.frames - len1 * 2
     cond_diff1 = (conditioning[[1]] - conditioning[[0]]) / (len2 - 1)
     cond_list1 = []

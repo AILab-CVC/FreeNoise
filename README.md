@@ -63,6 +63,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 |VideoCrafter (Text2Video)|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)|Support 64 frames on NVIDIA A100 (40GB)
 |VideoCrafter (Text2Video)|256x256|To Release|Support 512 frames on NVIDIA A100 (40GB)
 
+(Reduce the number of frames when you have smaller GPUs)
 
 ## ⚙️ Setup
 
@@ -83,7 +84,7 @@ pip install -r requirements.txt
   sh scripts/run_text2video_freenoise_512.sh
 ```
 
-### 2. Multi-Prompt Longer Text-to-Video
+### 2. Longer Multi-Prompt Text-to-Video
 
 1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1.0/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_512_v1/model.ckpt`.
 2) Input the following commands in terminal.
