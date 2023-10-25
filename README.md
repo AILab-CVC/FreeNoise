@@ -51,7 +51,8 @@ Resolution: 1024 x 576; Frames: 64.</p>
 </div>
 
 ## 📝 Changelog
-- __[2023.10.24]__: 🔥🔥 Release the LongerCrafter (FreeNoise), longer Video Generation!
+- __[2023.10.24]__: 🔥🔥 Release the LongerCrafter (FreeNoise), longer video generation!
+- __[2023.10.25]__: 🔥🔥 Release the 256x256 model and support multi-prompt generation!
 <br>
 
 
@@ -61,16 +62,16 @@ Resolution: 1024 x 576; Frames: 64.</p>
 |:---------|:---------|:--------|:--------|
 |VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1/blob/main/model.ckpt)|Support 128 frames on NVIDIA A100 (40GB)
 |VideoCrafter (Text2Video)|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)|Support 64 frames on NVIDIA A100 (40GB)
-|VideoCrafter (Text2Video)|256x256|To Release|Support 512 frames on NVIDIA A100 (40GB)
+|VideoCrafter (Text2Video)|256x256|[Hugging Face](https://huggingface.co/MoonQiu/LongerCrafter/blob/main/model.pth)|Support 512 frames on NVIDIA A100 (40GB)
 
-(Reduce the number of frames when you have smaller GPUs)
+(Reduce the number of frames when you have smaller GPUs, e.g. 256x256 resolutions with 64 frames.)
 
 ## ⚙️ Setup
 
 ### 1. Install Environment via Anaconda (Recommended)
 ```bash
-conda create -n longercrafter python=3.8.5
-conda activate longercrafter
+conda create -n freenoise python=3.8.5
+conda activate freenoise
 pip install -r requirements.txt
 ```
 
@@ -86,10 +87,10 @@ pip install -r requirements.txt
 
 ### 2. Longer Multi-Prompt Text-to-Video
 
-1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1.0/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_512_v1/model.ckpt`.
+1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/MoonQiu/LongerCrafter/blob/main/model.pth), and put the `model.pth` in `checkpoints/base_256_v1/model.pth`.
 2) Input the following commands in terminal.
 ```bash
-  sh scripts/run_text2video_freenoise_mp_512.sh
+  sh scripts/run_text2video_freenoise_mp_256.sh
 ```
 
 
