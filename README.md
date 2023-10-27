@@ -68,7 +68,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 
 ## ⚙️ Setup
 
-### 1. Install Environment via Anaconda (Recommended)
+### Install Environment via Anaconda (Recommended)
 ```bash
 conda create -n freenoise python=3.8.5
 conda activate freenoise
@@ -107,7 +107,7 @@ FreeNoise is supposed to work on other similar frameworks. An easy way to test c
 [TaleCrafter](https://github.com/AILab-CVC/TaleCrafter): An interactive story visualization tool that supports multiple characters.  
 
 
-## 🥳 Citation
+## 😉 Citation
 ```bib
 @misc{qiu2023freenoise,
       title={FreeNoise: Tuning-Free Longer Video Diffusion Via Noise Rescheduling}, 
