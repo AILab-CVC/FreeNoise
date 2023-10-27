@@ -107,7 +107,7 @@ FreeNoise is supposed to work on other similar frameworks. An easy way to test c
 [TaleCrafter](https://github.com/AILab-CVC/TaleCrafter): An interactive story visualization tool that supports multiple characters.  
 
 
-## 😉 Citation
+## 🥳 Citation
 ```bib
 @misc{qiu2023freenoise,
       title={FreeNoise: Tuning-Free Longer Video Diffusion Via Noise Rescheduling}, 
