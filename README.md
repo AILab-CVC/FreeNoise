@@ -56,7 +56,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 <br>
 
 
-## ⏳ Models
+## 🧰 Models
 
 |Model|Resolution|Checkpoint|Description
 |:---------|:---------|:--------|:--------|
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 ```
 
 
-## ⏳ Support For Other Models
+## 🧲 Support For Other Models
 
 FreeNoise is supposed to work on other similar frameworks. An easy way to test compatibility is by shuffling the noise to see whether a new similar video can be generated (set eta to 0). If your have any questions about applying FreeNoise to other frameworks, feel free to contact [Haonan Qiu](http://haonanqiu.com/).
 
