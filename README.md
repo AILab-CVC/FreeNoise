@@ -113,6 +113,8 @@ FreeNoise is supposed to work on other similar frameworks. An easy way to test c
 
 [TaleCrafter](https://github.com/AILab-CVC/TaleCrafter): An interactive story visualization tool that supports multiple characters.  
 
+[EvalCrafter](https://github.com/EvalCrafter/EvalCrafter): A framework for exhaustively evaluating generic text-to-video models.
+
 
 ## 😉 Citation
 ```bib
