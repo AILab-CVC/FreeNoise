@@ -76,6 +76,7 @@ class Predictor(BasePredictor):
 
         width = 1024 if output_size == "576x1024" else 256
         height = 576 if output_size == "576x1024" else 256
+        fps = 28 if output_size == "576x1024" else 8
         model = self.model_1024 if output_size == "576x1024" else self.model_256
 
         if seed is None:
@@ -93,7 +94,7 @@ class Predictor(BasePredictor):
             height=height,
             width=width,
             frames=num_frames,
-            fps=24,
+            fps=fps,
             unconditional_guidance_scale=unconditional_guidance_scale,
             unconditional_guidance_scale_temporal=None,
             cond_input=None,
