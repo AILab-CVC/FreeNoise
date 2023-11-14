@@ -11,7 +11,7 @@
 
  <a href='https://arxiv.org/abs/2310.15169'><img src='https://img.shields.io/badge/arXiv-2310.15169-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <a href='http://haonanqiu.com/projects/FreeNoise.html'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/PAIR/Text2Video-Zero) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/MoonQiu/LongerCrafter) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  [![Replicate](https://replicate.com/cjwbw/longercrafter/badge)](https://replicate.com/cjwbw/longercrafter)
 
 
