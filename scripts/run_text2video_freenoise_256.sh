@@ -1,6 +1,6 @@
 name="base_256_test"
 
-ckpt='checkpoints/base_256_v1/model.pth'
+ckpt='checkpoints/base_256_v1/model_256.pth'
 config='configs/inference_t2v_tconv256_v1.0_freenoise.yaml'
 
 prompt_file="prompts/single_prompts.txt"

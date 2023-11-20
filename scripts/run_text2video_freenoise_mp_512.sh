@@ -1,6 +1,6 @@
 name="base_512_test"
 
-ckpt='checkpoints/base_512_v1/model.ckpt'
+ckpt='checkpoints/base_512_v1/model_512.ckpt'
 config='configs/inference_t2v_tconv512_v1.0_freenoise.yaml'
 
 prompt_file="prompts/mp_prompts.txt"
