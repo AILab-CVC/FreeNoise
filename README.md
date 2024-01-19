@@ -62,7 +62,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 
 |Model|Resolution|Checkpoint|Description
 |:---------|:---------|:--------|:--------|
-|VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 128 frames on NVIDIA A100 (40GB)
+<!-- |VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 128 frames on NVIDIA A100 (40GB) -->
 |VideoCrafter (Text2Video)|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)|Support 64 frames on NVIDIA A100 (40GB)
 |VideoCrafter (Text2Video)|256x256|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 512 frames on NVIDIA A100 (40GB)
 
@@ -95,10 +95,10 @@ pip install -r requirements.txt
 
 ### 2. Longer Multi-Prompt Text-to-Video
 
-1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/MoonQiu/LongerCrafter/blob/main/model_512.ckpt), and put the `model_512.ckpt` in `checkpoints/base_512_v1/model_512.ckpt`.
+1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter), and put the `model.ckpt` in `checkpoints/base_256_v1/model.ckpt`.
 2) Input the following commands in terminal.
 ```bash
-  sh scripts/run_text2video_freenoise_mp_512.sh
+  sh scripts/run_text2video_freenoise_mp_256.sh
 ```
 
 
