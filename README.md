@@ -55,6 +55,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 ## 📝 Changelog
 - __[2023.10.24]__: 🔥🔥 Release the LongerCrafter (FreeNoise), longer video generation!
 - __[2023.10.25]__: 🔥🔥 Release the 256x256 model and support multi-prompt generation!
+- __[2024.01.23]__: 🔥🔥 Support FreeNoise on other two video frameworks AnimateDiff and LaVie!
 <br>
 
 
