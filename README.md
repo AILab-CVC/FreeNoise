@@ -106,6 +106,8 @@ pip install -r requirements.txt
 
 FreeNoise is supposed to work on other similar frameworks. An easy way to test compatibility is by shuffling the noise to see whether a new similar video can be generated (set eta to 0). If your have any questions about applying FreeNoise to other frameworks, feel free to contact [Haonan Qiu](http://haonanqiu.com/).
 
+Current official implementation: [FreeNoise-VideoCrafter](https://github.com/AILab-CVC/FreeNoise), [FreeNoise-AnimateDiff](https://github.com/arthur-qiu/FreeNoise-AnimateDiff), [FreeNoise-LaVie](https://github.com/arthur-qiu/FreeNoise-LaVie) 
+
 
 ## 👨‍👩‍👧‍👦 Crafter Family
 [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
