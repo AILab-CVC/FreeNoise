@@ -63,9 +63,9 @@ Resolution: 1024 x 576; Frames: 64.</p>
 
 |Model|Resolution|Checkpoint|Description
 |:---------|:---------|:--------|:--------|
-<!-- |VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 128 frames on NVIDIA A100 (40GB) -->
 |VideoCrafter (Text2Video)|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)|Support 64 frames on NVIDIA A100 (40GB)
 |VideoCrafter (Text2Video)|256x256|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 512 frames on NVIDIA A100 (40GB)
+<!-- |VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 128 frames on NVIDIA A100 (40GB) -->
 
 (Reduce the number of frames when you have smaller GPUs, e.g. 256x256 resolutions with 64 frames.)
 
