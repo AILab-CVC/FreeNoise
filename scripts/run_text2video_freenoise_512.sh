@@ -18,7 +18,7 @@ python3 scripts/evaluation/inference_freenoise.py \
 --ddim_steps 50 \
 --ddim_eta 0.0 \
 --prompt_file $prompt_file \
---fps 16 \
+--fps 12 \
 --frames 64 \
 --window_size 16 \
 --window_stride 4 
