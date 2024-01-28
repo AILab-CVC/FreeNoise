@@ -53,9 +53,10 @@ Resolution: 1024 x 576; Frames: 64.</p>
 </div>
 
 ## 📝 Changelog
-- __[2023.10.24]__: 🔥🔥 Release the LongerCrafter (FreeNoise), longer video generation!
-- __[2023.10.25]__: 🔥🔥 Release the 256x256 model and support multi-prompt generation!
+- __[2024.01.28]__: 🔥🔥 Support FreeNoise on VideoCrafter2!
 - __[2024.01.23]__: 🔥🔥 Support FreeNoise on other two video frameworks AnimateDiff and LaVie!
+- __[2023.10.25]__: 🔥🔥 Release the 256x256 model and support multi-prompt generation!
+- __[2023.10.24]__: 🔥🔥 Release the LongerCrafter (FreeNoise), longer video generation!
 <br>
 
 
@@ -65,7 +66,7 @@ Resolution: 1024 x 576; Frames: 64.</p>
 |:---------|:---------|:--------|:--------|
 |VideoCrafter (Text2Video)|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)|Support 64 frames on NVIDIA A100 (40GB)
 |VideoCrafter (Text2Video)|256x256|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 512 frames on NVIDIA A100 (40GB)
-<!-- |VideoCrafter (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter)|Support 128 frames on NVIDIA A100 (40GB) -->
+|VideoCrafter2 (Text2Video)|320x512|[Hugging Face](https://huggingface.co/VideoCrafter/VideoCrafter2/blob/main/model.ckpt)|Support 128 frames on NVIDIA A100 (40GB)
 
 (Reduce the number of frames when you have smaller GPUs, e.g. 256x256 resolutions with 64 frames.)
 
