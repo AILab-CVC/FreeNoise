@@ -110,12 +110,12 @@ FreeNoise is supposed to work on other similar frameworks. An easy way to test c
 
 Current official implementation: [FreeNoise-VideoCrafter](https://github.com/AILab-CVC/FreeNoise), [FreeNoise-AnimateDiff](https://github.com/arthur-qiu/FreeNoise-AnimateDiff), [FreeNoise-LaVie](https://github.com/arthur-qiu/FreeNoise-LaVie) 
 
-## 👨‍👩‍👧‍👦 My Free Series
+## 🚀 My Free Series
 [FreeScale](https://github.com/ali-vilab/FreeScale): Tuning-free method for high-resolution image/video generation.
 
 [FreeTraj](https://github.com/arthur-qiu/FreeTraj): Tuning-free method for trajectory control.
 
-## 👨‍👩‍👧‍👦 Crafter Family
+## 👫 Crafter Family
 [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
 
 [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter): Tuning-free method for high-resolution image/video generation.
