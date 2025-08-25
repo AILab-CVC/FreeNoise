@@ -1,6 +1,6 @@
 ## ___***FreeNoise: Tuning-Free Longer Video Diffusion via Noise Rescheduling***___
 
-### 🔥🔥🔥 The LongerCrafter for longer high-quality video generation are now released!
+### 🔥🔥🔥 FreeNoise for longer high-quality video generation is now released!
 
 <div align="center">
 <p style="font-weight: bold">
@@ -84,32 +84,36 @@ pip install -r requirements.txt
 ### 1. Longer Text-to-Video
 
 <!-- 1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_512_v1/model.ckpt`.
-2) Input the following commands in terminal.
+2) Input the following commands in the terminal.
 ```bash
-  sh scripts/run_text2video_freenoise_512.sh
+sh scripts/run_text2video_freenoise_512.sh
 ``` -->
 
 1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_1024_v1/model.ckpt`.
-2) Input the following commands in terminal.
+2) Input the following commands in the terminal.
 ```bash
-  sh scripts/run_text2video_freenoise_1024.sh
+sh scripts/run_text2video_freenoise_1024.sh
 ```
 
 ### 2. Longer Multi-Prompt Text-to-Video
 
 1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter), and put the `model.ckpt` in `checkpoints/base_256_v1/model.ckpt`.
-2) Input the following commands in terminal.
+2) Input the following commands in the terminal.
 ```bash
-  sh scripts/run_text2video_freenoise_mp_256.sh
+sh scripts/run_text2video_freenoise_mp_256.sh
 ```
 
 
 ## 🧲 Support For Other Models
 
-FreeNoise is supposed to work on other similar frameworks. An easy way to test compatibility is by shuffling the noise to see whether a new similar video can be generated (set eta to 0). If your have any questions about applying FreeNoise to other frameworks, feel free to contact [Haonan Qiu](http://haonanqiu.com/).
+FreeNoise is supposed to work on other similar frameworks. An easy way to test compatibility is by shuffling the noise to see whether a new similar video can be generated (set eta to 0). If you have any questions about applying FreeNoise to other frameworks, feel free to contact [Haonan Qiu](http://haonanqiu.com/).
 
 Current official implementation: [FreeNoise-VideoCrafter](https://github.com/AILab-CVC/FreeNoise), [FreeNoise-AnimateDiff](https://github.com/arthur-qiu/FreeNoise-AnimateDiff), [FreeNoise-LaVie](https://github.com/arthur-qiu/FreeNoise-LaVie) 
 
+## 👨‍👩‍👧‍👦 My Free Series
+[FreeScale](https://github.com/ali-vilab/FreeScale): Tuning-free method for high-resolution image/video generation.
+
+[FreeTraj](https://github.com/arthur-qiu/FreeTraj): Tuning-free method for trajectory control.
 
 ## 👨‍👩‍👧‍👦 Crafter Family
 [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter): Framework for high-quality video generation.
